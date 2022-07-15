@@ -1,6 +1,6 @@
 Zig Wasm/WASI demo
 =====================
-Build Wasm/WASI with Zig Language and run demo with [Node](https://nodejs.org/)/[Deno](https://deno.land/)/[Bun](https://bun.sh/) and [wasmtime](https://github.com/bytecodealliance/wasmtime).
+Build Wasm/WASI with [Zig Language](https://ziglang.org/) and run demo with [Node](https://nodejs.org/)/[Deno](https://deno.land/)/[Bun](https://bun.sh/) and [wasmtime](https://github.com/bytecodealliance/wasmtime).
 
 # Features
 
