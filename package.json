@@ -5,7 +5,7 @@
   "description": "zig Wasm/WASI demo",
   "main": "index.mjs",
   "scripts": {
-    "build-wasm": "zig build-lib src/math.zig -target wasm32-freestanding -dynamic",
+    "build-wasm": "zig build-lib -O ReleaseSmall src/math.zig -target wasm32-freestanding -dynamic",
     "build-wasi": "zig build-exe -O ReleaseSmall -target wasm32-wasi src/main.zig",
     "deno-demo": "deno run --compat --unstable -A index.mjs",
     "wasi-demo": "wasmtime main.wasm"
